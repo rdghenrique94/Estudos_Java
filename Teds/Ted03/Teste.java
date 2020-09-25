@@ -28,7 +28,7 @@ public class Teste {
         System.out.println("External Area Rectangle: " + rect.areaEx() +" Cm²");
         System.out.println("Internal Arena Rectangle: " + rect.areaIn() +" Cm²");
          
-        System.out.println("Frame Arena: "+ rect.frame()+" Cm²");
+        System.out.println("Frame Area: "+ rect.frame()+" Cm²");
         sc.close();
     }
 
