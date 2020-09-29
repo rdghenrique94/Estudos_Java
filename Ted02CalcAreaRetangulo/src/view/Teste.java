@@ -1,12 +1,11 @@
-package linguagem_programacao_teds;
+package view;
 
+import model.Rectangle;
 import java.util.Scanner;
 
-import temp_class.Rectangle;
-
 public class Teste {
-
-	public static void main(String[] args) {
+	
+public static void main(String[] args) {
 		
 		Rectangle rect = new Rectangle();
         Scanner sc = new Scanner(System.in);
@@ -22,5 +21,4 @@ public class Teste {
        
         sc.close();
     }
-
 }
