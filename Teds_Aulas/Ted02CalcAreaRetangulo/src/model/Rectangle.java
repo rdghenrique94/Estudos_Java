@@ -2,11 +2,11 @@ package model;
 
 public class Rectangle {
 
-		private double width;
+		private double base;
 		private double height;
 		
-		 public void setWidht(double width) {
-		        this.width = width;
+		 public void setBase(double Base) {
+		        this.base = base;
 		    }
 
 		    public void setHeight(double height) {
@@ -14,7 +14,7 @@ public class Rectangle {
 		    }
 
 		    public double area() {
-		        return width * height;
+		        return base * height;
 		    }
 
 	}
