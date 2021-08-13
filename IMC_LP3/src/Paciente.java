@@ -1,3 +1,4 @@
+//Rodrigo Andrade
 public class Paciente {
 
     public double peso;
